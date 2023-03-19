@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: wheat;
+}
+
+.contenedor {
+  width: 500px;
+  padding: 10px;
+  border: 5px outset;
+  border-radius: 20px;
+  background: lightcyan;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  background: black;
+  color: white;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 200px 100px;
+  padding-left: 45px;
+  padding-right: 10px;
+}
+
+.buscador {
+  padding: 0 !important;
+  width: 15rem !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: lightslategray;
+  text-shadow: 2px 2px antiquewhite;
+  text-align: center;
+  line-height: 20px;
+}
+
+label {
+  font-weight: lighter;
+}
+
+input {
+  display: block;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+img {
+  width: 100%;
+  opacity: 30%;
+}
+
+.encabezado {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.encabezado p {
+  top: 70%;
+  width: 100%;
+  position: absolute;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background: lightgray;
+}
